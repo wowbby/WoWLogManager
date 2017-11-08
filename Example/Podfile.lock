@@ -1,0 +1,24 @@
+PODS:
+  - CocoaLumberjack (3.3.0):
+    - CocoaLumberjack/Default (= 3.3.0)
+    - CocoaLumberjack/Extensions (= 3.3.0)
+  - CocoaLumberjack/Default (3.3.0)
+  - CocoaLumberjack/Extensions (3.3.0):
+    - CocoaLumberjack/Default
+  - WoWLogManager (0.1.0):
+    - CocoaLumberjack
+
+DEPENDENCIES:
+  - WoWLogManager (from `../`)
+
+EXTERNAL SOURCES:
+  WoWLogManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 3c8c74683302f9012bb168e1c4b7ae3c0b558431
+  WoWLogManager: e078493fe71b37836b4ae0656bc6984c5e3b71e6
+
+PODFILE CHECKSUM: 921f29ea1da9db1e9650de3692f07274e00c7f8e
+
+COCOAPODS: 1.4.0.beta.2

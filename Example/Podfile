@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WoWLogManager_Example' do
+  pod 'WoWLogManager', :path => '../'
+
+  target 'WoWLogManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

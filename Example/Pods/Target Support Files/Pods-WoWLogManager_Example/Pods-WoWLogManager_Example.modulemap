@@ -1,0 +1,6 @@
+framework module Pods_WoWLogManager_Example {
+  umbrella header "Pods-WoWLogManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

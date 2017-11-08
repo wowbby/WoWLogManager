@@ -1,0 +1,6 @@
+framework module WoWLogManager {
+  umbrella header "WoWLogManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
